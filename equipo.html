@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./media/file (1).png">
+    <title>Salus Clinica</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo-nav">
+                <a href="./index.html"><img src="./media/LOGO 34.png" alt="logo"></a>
+            </div>
+            <button class="hamburger">
+                <i class="fas fa-bars hamburger-icon"></i>
+              </button>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./servicios.html">Servicios</a></li>
+                <li><a href="./equipo.html" class="active">Equipo</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main-container"> 
+        <div class="profesionales-container">
+            <h3>Nuestros Profesionales</h3>
+            <p>Contamos con un equipo de profesionales altamente capacitados y comprometidos con la excelencia.</p>
+            <div class="container-fluid">
+                <div class="row mb-4 profesional-card">
+                    <div class="col-md-3 text-center">
+                        <img src="./media/pexels-648298123-20894637.jpg" alt="Dr. Miguel Garay" class="img-fluid profile-image">
+                    </div>
+                    <div class="col-md-9">
+                        <h5>Dr. Miguel Garay</h5>
+                        <h6>Pediatría</h6>
+                        <p>Pediatra con más de 10 años de experiencia en salud infantil y desarrollo.</p>
+                        <button type="button" class="btn boton-vermas" data-bs-toggle="modal" data-bs-target="#modal1">Ver más +</button>
+                    </div>
+                </div>
+                
+                <div class="row mb-4 profesional-card">
+                    <div class="col-md-3 text-center">
+                        <img src="./media/pexels-shkrabaanthony-5214995.jpg" alt="Dra. Isabel Ferrer" class="img-fluid profile-image">
+                    </div>
+                    <div class="col-md-9">
+                        <h5>Dra. Isabel Ferrer</h5>
+                        <h6>Ginecología</h6>
+                        <p>Ginecóloga y obstetra con experiencia en salud reproductiva y partos de alto riesgo.</p>
+                        <button type="button" class="btn boton-vermas" data-bs-toggle="modal" data-bs-target="#modal2">Ver más +</button>
+                    </div>
+                </div>
+                
+                <div class="row mb-4 profesional-card">
+                    <div class="col-md-3 text-center">
+                        <img src="./media/pexels-tima-miroshnichenko-5452268.jpg" alt="Dr. Pedro Solano" class="img-fluid profile-image">
+                    </div>
+                    <div class="col-md-9">
+                        <h5>Dr. Pedro Solano</h5>
+                        <h6>Cardiología</h6>
+                        <p>Cardiólogo con más de 15 años de experiencia en el tratamiento de enfermedades cardiovasculares.</p>
+                        <button type="button" class="btn boton-vermas" data-bs-toggle="modal" data-bs-target="#modal3">Ver más +</button>
+                    </div>
+                </div>
+                <div class="row mb-4 profesional-card">
+                    <div class="col-md-3 text-center">
+                        <img src="./media/pexels-tima-miroshnichenko-5452201.jpg" alt="Dr. Pedro Solano" class="img-fluid profile-image">
+                    </div>
+                    <div class="col-md-9">
+                        <h5>Dra. Sofía Cardozo</h5>
+                        <h6>Neurología</h6>
+                        <p>Neuróloga con experiencia en investigaciones y tratamiento de enfermedades neurodegenerativas.</p>
+                        <button type="button" class="btn boton-vermas" data-bs-toggle="modal" data-bs-target="#modal4">Ver más +</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5">Dr. Miguel Garay</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Historial Académico: Graduado de la Universidad Nacional de La Plata, con una especialización en Pediatría en la Universidad de California, San Francisco.</p>
+                        <p>Experiencia: Más de 10 años de experiencia en el cuidado de la salud infantil, con un enfoque en enfermedades crónicas y desarrollo infantil.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5">Dra. Isabel Ferrer</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Historial Académico: Graduada de la Universidad Nacional de Rosario, con una especialización en Ginecología y Obstetricia en la Universidad de Oxford.</p>
+                        <p>Experiencia: Ha trabajado en clínicas y hospitales de prestigio, con un enfoque en salud reproductiva y partos de alto riesgo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5">Dr. Pedro Solano</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Historial Académico: Graduado de la Universidad Nacional de Buenos Aires, con una especialización en Cardiología en la Universidad de Harvard.</p>
+                        <p>Experiencia: Más de 15 años de experiencia en el tratamiento de enfermedades cardiovasculares, con numerosas publicaciones en revistas médicas internacionales.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modal3" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5">Dr. Pedro Solano</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Historial Académico: Graduada de la Universidad de Córdoba, con una especialización en Neurología en la Universidad de Stanford.</p>
+                        <p>Experiencia: Ha trabajado en varios hospitales de renombre y ha participado en investigaciones sobre enfermedades neurodegenerativas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-container">
+            <h2>Contáctanos</h2>
+            <form>
+              <input type="text" placeholder="Nombre" required>
+              <input type="text" placeholder="Teléfono" required>
+              <input type="email" placeholder="Email" required>
+              <textarea placeholder="Mensaje" required></textarea>
+              <button type="submit">Enviar</button>
+            </form>
+          </div>
+        <div class="footer-line"></div>
+        <div class="footer">
+            <footer>
+                <div class="grid-container">
+                    <div class="logo-footer">
+                        <a href="./index.html"><img src="./media/LOGO 34.png" alt="logo"></a>
+                    </div>
+                    <div class="contacto">
+                        <p><span class="highlight">Dirección:</span> San Juan, Capital</p>
+                        <p><span class="highlight">Teléfono:</span> 45237689</p>
+                    </div>
+                    <div class="redes">
+                        <h3>Seguinos en:</h3>
+                        <div class="social-icons">
+                            <a href=""><img src="./media/icons8-facebook-50.png" alt="facebook"></a>
+                            <a href=""><img src="./media/icons8-instagram-50.png" alt="instagram"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 Salus Clinica. Todos los derechos reservados.</p>
+                </div>
+            </footer>
+        </div>               
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
